@@ -1,0 +1,70 @@
+// colors *
+$color-light: #fff;
+$color-lightwhite: #f1f1f1;
+$color-dark: #000;
+$color-gradient: radial-gradient(
+  523px at 7.1% 19.3%,
+  rgb(147, 15, 255) 2%,
+  rgb(5, 49, 255) 100.7%
+);
+$theme-blue: rgb(5, 49, 255);
+$theme-purple: rgb(147, 15, 255);
+$primary-color: rgb(5, 49, 255);
+$secondary-color: #a8aeb3;
+$success-color: #28a745;
+$danger-color: #dc3545;
+$warning-color: #ffc107;
+$info-color: #17a2b8;
+$purple-light: #7c15ff08;
+$purple-text: #462164;
+
+// sizing *
+$w-25: 25%;
+$w-35: 35%;
+$w-50: 50%;
+$w-75: 75%;
+$w-60: 60%;
+$w-80: 80%;
+$w-90: 90%;
+$w-100: 100%;
+
+$h-50: 50%;
+$h-75: 75%;
+$h-100: 100%;
+$h-100vh: 100vh;
+$h-75vh: 75vh;
+$h-50vh: 50vh;
+
+$fs-12: 12px;
+$fs-14: 14px;
+$fs-16: 16px;
+$fs-18: 18px;
+$fs-20: 20px;
+$fs-22: 22px;
+
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+
+// font-family *
+$poppins: "Poppins", sans-serif;
+
+$tablet: 769px;
+$desktop: 960px;
+$widescreen: 1200px;
+$fullhd: 1430px;
+
+// pixels
+$px5: 5px;
+$px10: 10px;
+$px15: 15px;
+$px20: 20px;
+$px25: 25px;
+$px30: 30px;
+$px35: 35px;
+$px40: 40px;
+
+$fullshadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+$thinshadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+$normalshadow: 0 0px 8px rgb(0 0 0 / 12%), 0 0px 0px rgb(0 0 0 / 24%);

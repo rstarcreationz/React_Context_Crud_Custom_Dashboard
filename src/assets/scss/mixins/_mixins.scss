@@ -1,0 +1,57 @@
+@import "../variables/variables";
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-start {
+  display: flex;
+  align-items: center;
+}
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin box-shadow {
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+@mixin column {
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+@mixin button {
+  border: none;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-family: poppins;
+  letter-spacing: 1px;
+  font-size: 14px;
+  display: block;
+  margin: auto;
+  box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+@mixin ullist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@mixin card {
+  background: $color-light;
+  border-radius: $px5;
+  padding: $px10;
+  box-shadow: $thinshadow;
+  margin: 0 8px;
+}
