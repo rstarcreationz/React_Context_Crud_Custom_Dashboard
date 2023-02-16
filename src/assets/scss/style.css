@@ -607,7 +607,7 @@ a {
   display: flex;
 }
 ._header_flex_bar ._searchbar span svg {
-  vertical-align: middle;
+  vertical-align: bottom;
   font-size: 20px;
   color: rgb(147, 15, 255);
 }
@@ -619,6 +619,7 @@ a {
   padding: 10px;
   font-size: 16px;
   color: rgb(147, 15, 255);
+  width: 100%;
 }
 ._header_flex_bar ._notification_bar {
   flex-grow: 1;
@@ -898,7 +899,7 @@ a {
   box-shadow: 0 0px 8px rgba(0, 0, 0, 0.12), 0 0px 0px rgba(0, 0, 0, 0.24);
 }
 ._members_list .col {
-  width: 95px;
+  width: 90px;
   padding: 5px;
   text-align: center;
 }
@@ -912,6 +913,18 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+._members_list .col ._name {
+  font-size: 14px;
+  padding: 3px 0;
+  font-weight: 600;
+}
+._members_list .col ._designation {
+  font-size: 14px;
+  padding: 3px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 ._members_list .col p {
   padding: 3px 0;

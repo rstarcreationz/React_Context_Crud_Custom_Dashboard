@@ -342,7 +342,7 @@ a {
     display: flex;
     span {
       svg {
-        vertical-align: middle;
+        vertical-align: bottom;
         font-size: $px20;
         color: $theme-purple;
       }
@@ -355,6 +355,7 @@ a {
       padding: $px10;
       font-size: $fs-16;
       color: $theme-purple;
+      width: $w-100;
     }
   }
   ._notification_bar {
@@ -631,7 +632,7 @@ a {
   border-radius: $px15;
   box-shadow: $normalshadow;
   .col {
-    width: 95px;
+    width: 90px;
     padding: 5px;
     text-align: center;
     ._avatar {
@@ -642,6 +643,18 @@ a {
       margin-bottom: $px10;
       color: #fff;
       @include flex-center;
+    }
+    ._name {
+      font-size: $fs-14;
+      padding: 3px 0;
+      font-weight: $fw-600;
+    }
+    ._designation {
+      font-size: $fs-14;
+      padding: 3px 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     p {
       padding: 3px 0;

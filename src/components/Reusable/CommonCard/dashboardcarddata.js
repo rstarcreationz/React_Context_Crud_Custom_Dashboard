@@ -26,11 +26,11 @@ export const dashboardcarddata = [
 
 export const skillcarddata = [
   { name: "React", count: 80, icon: <FaReact /> },
-  { name: "Javascript", count: 2, icon: <TbBrandJavascript /> },
-  { name: "Scss", count: 2, icon: <FaCss3Alt /> },
-  { name: "Typescript", count: 2, icon: <SiTypescript /> },
-  { name: "HTML5", count: 2, icon: <FaHtml5 /> },
-  { name: "Redux", count: 2, icon: <SiRedux /> },
+  { name: "Javascript", count: 80, icon: <TbBrandJavascript /> },
+  { name: "Scss", count: 70, icon: <FaCss3Alt /> },
+  { name: "Typescript", count: 60, icon: <SiTypescript /> },
+  { name: "HTML5", count: 90, icon: <FaHtml5 /> },
+  { name: "Redux", count: 80, icon: <SiRedux /> },
 ];
 
 export const memberlist = [

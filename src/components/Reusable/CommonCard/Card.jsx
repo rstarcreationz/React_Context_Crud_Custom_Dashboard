@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from "react-countup";
 
 export const DashboardCard = ({ cardItem }) => {
   return (
@@ -24,7 +25,15 @@ export const SkillCard = ({ cardItem }) => {
         <div className="_content">
           <p className="text-center">{cardItem.name}</p>
           <h4 className="text-center">
-            {cardItem.count > 10 ? cardItem.count : "0" + cardItem.count}
+            <CountUp
+              className="account-balance"
+              start={0}
+              end={cardItem.count}
+              duration={3}
+              useEasing={true}
+              separator=","
+              suffix="%"
+            />
           </h4>
         </div>
       </div>

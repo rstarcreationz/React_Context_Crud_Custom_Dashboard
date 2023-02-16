@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { MdArrowForwardIos } from "react-icons/md";
 import { useContextCrud } from "../../context/ContactsCrudContext";
 import { DashboardCard, SkillCard } from "../Reusable/CommonCard/Card";
